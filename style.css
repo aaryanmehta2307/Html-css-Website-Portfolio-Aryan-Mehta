@@ -1,119 +1,117 @@
-
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400;700&display=swap');
-:root{
-    --primary-color: #7c3aed;
-    --Grey-color:#4b5563;
-    --Off-white:#f5f5f5;
+
+:root {
+  --primary-color: #7c3aed;
+  --Grey-color: #4b5563;
+  --Off-white: #f5f5f5;
 }
+
 body {
-    font-family: 'Roboto Mono', monospace;
-    margin: 0px;
-}
-/* Container css */
-
-.container{
-    /* padding-left: 1rem;
-    padding-right: 1rem; */
-    padding: 0rem 1rem;
+  font-family: 'Roboto Mono', monospace;
+  margin: 0;
 }
 
-.container-center{
-      max-width: 600px;
-      margin: auto;
-
-}
-/* Boundary Line */
-hr{
-   margin : 2rem 0rem;
-}
-/* Links */
-
-.Primary-link{
-    text-decoration: none;
-    padding: 0.5rem 1rem;
-    background-color:var(--primary-color);
-    color: white;
-    border-radius: 0.5rem;
-}
-.Secondary-link{
-    text-decoration: none;
-    padding: 0.5rem 1rem;
-    color:var(--primary-color);
-    background-color: white;
-    border-radius: 0.5rem;
-    border: 1px solid var(--primary-color);
-}
-/* List */
-
-.Non-bullets{
-    list-style: none;
-
-}
-.list-inline{
-    display: inline; 
-    padding: 0rem 0.5rem;
+.container {
+  padding: 0 1rem;
 }
 
-/* @Nav */
-.Navigation{
-    background-color: var(--primary-color);
-    color: white;
-    padding: 1rem;
-    border-bottom-left-radius: 1rem;
+.container-center {
+  max-width: 600px;
+  margin: auto;
 }
-.Navigation .nav-Brand{
-    font-weight: bold;
-    font-size: 1.1rem;
+
+hr {
+  margin: 2rem 0;
 }
+
+.Primary-link {
+  text-decoration: none;
+  padding: 0.5rem 1rem;
+  background-color: var(--primary-color);
+  color: white;
+  border-radius: 0.5rem;
+}
+
+.Secondary-link {
+  text-decoration: none;
+  padding: 0.5rem 1rem;
+  color: var(--primary-color);
+  background-color: white;
+  border-radius: 0.5rem;
+  border: 1px solid var(--primary-color);
+}
+
+.Non-bullets {
+  list-style: none;
+}
+
+.list-inline {
+  display: inline; 
+  padding: 0 0.5rem;
+}
+
+.Navigation {
+  background-color: var(--primary-color);
+  color: white;
+  padding: 1rem;
+  border-bottom-left-radius: 1rem;
+}
+
+.Navigation .nav-Brand {
+  font-weight: bold;
+  font-size: 1.1rem;
+}
+
 .Navigation .nav-pills {
   text-align: center;
 }
-.Navigation .Links
-{
-    text-decoration: none;
-    color: white
-}
-.Navigation .list-inline{
-    padding: 0rem 4rem;
-}
-.Navigation .link-active{
-    font-weight: bold;
-}
-/* Header Section */
-.Header{
-    padding:2rem;
-}
-.Header .Header-img{
-    max-width: 350px;
-    display: block;
-    margin: auto;
-    
+
+.Navigation .Links {
+  text-decoration: none;
+  color: white;
 }
 
-.Header .Header-text{
-    /* padding :1rem; */
-    text-align: center;
-    color: var(--Grey-color);
-    
+.Navigation .list-inline {
+  padding: 0 4rem;
 }
-.Header .Highlight{
-    color: var(--primary-color);
-    /* margin: auto;
-     */
-     text-align: center;
-    }
-    
-    .Section{
-        padding: 2rem;
-    }
-    .Section h1{
-        text-align: center;
-    }
-    .Off-White{
-        background-color: var(--Off-white);
-    }
-    
-   .Footer {
+
+.Navigation .link-active {
+  font-weight: bold;
+}
+
+.Header {
+  padding: 2rem;
+}
+
+.Header .Header-img {
+  max-width: 350px;
+  display: block;
+  margin: auto;
+}
+
+.Header .Header-text {
+  text-align: center;
+  color: var(--Grey-color);
+}
+
+.Header .Highlight {
+  color: var(--primary-color);
+  text-align: center;
+}
+
+.Section {
+  padding: 2rem;
+}
+
+.Section h1 {
+  text-align: center;
+}
+
+.Off-White {
+  background-color: var(--Off-white);
+}
+
+.Footer {
   background-color: var(--primary-color);
   padding: 2rem 1rem;
   border-top-right-radius: 2rem;
@@ -137,13 +135,13 @@ hr{
 }
 
 .logo-link {
-  margin: 0 100px; /* Adjust the margin as per your requirements */
-  margin-top: 20px; /* Adjust the margin as per your requirements */
+  margin: 0 1rem;
+  margin-top: 20px;
 }
 
 .logo-link img {
-  width: 50px; /* Adjust the width as per your requirements */
-  height: 50px; /* Adjust the height as per your requirements */
+  width: 50px;
+  height: 50px;
   cursor: pointer;
   transition: transform 0.5s;
 }
