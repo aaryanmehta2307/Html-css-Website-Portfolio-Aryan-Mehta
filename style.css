@@ -30,6 +30,9 @@ hr {
   background-color: var(--primary-color);
   color: white;
   border-radius: 0.5rem;
+  cursor: pointer;
+  transition: box-shadow 0.3sec ease-in-out;
+  transition: transform 0.5s;
 }
 
 .Secondary-link {
@@ -39,6 +42,29 @@ hr {
   background-color: white;
   border-radius: 0.5rem;
   border: 1px solid var(--primary-color);
+  transition: box-shadow 0.3sec ease-in-out;
+  cursor: pointer;
+  transition: transform 0.5s;
+}
+
+.Primary-link:hover {
+    box-shadow: 0 0 10px var(--primary-color); /* Apply a box-shadow effect on hover */
+     text-shadow: 0 0 10px var(--primary-color); 
+     transform: scale(1.2);
+}
+.Primary-link:active {
+    transform: scale(0.8);
+    /* Add any additional styles you want when the button is clicked */
+}
+
+.Secondary-link:hover {
+    box-shadow: 0 0 10px var(--primary-color); /* Apply a box-shadow effect on hover */
+     text-shadow: 0 0 10px var(--primary-color); 
+     transform: scale(1.2);
+}
+.Secondary-link:active {
+    transform: scale(0.8);
+    /* Add any additional styles you want when the button is clicked */
 }
 
 .Non-bullets {
