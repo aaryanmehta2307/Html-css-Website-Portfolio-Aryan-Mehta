@@ -14,6 +14,8 @@
 <meta name="msapplication-TileColor" content="#da532c">
 <meta name="theme-color" content="#ffffff">
 
+<meta http-equiv="Content-Security-Policy" content="default-src 'self';">
+<meta name="csrf-token" content="{{ csrf_token() }}">
 
 </head>
 <body>
@@ -21,15 +23,15 @@
         <div class="nav-Brand"><strong>I am Developer</strong> </div>
         <ul class="Non-bullets nav-pills">
             <li class="list-inline">
-                <a class="Links link-active" href="/">Home</a>
+                <a class="Links link-active" href="/" rel="noopener">Home</a>
             </li>
             <li class="list-inline">
-                <a class="Links " href="/project.html">Project</a>
+                <a class="Links " href="/project.html" rel="noopener">Project</a>
             </li>
             <li class="list-inline">
-                <a class="Links" href="/blogs.html">Blogs</a>
+                <a class="Links" href="/blogs.html" rel="noopener">Blogs</a>
             <li class="list-inline">
-                <a class="Links" href="tel:+919813473415">Contact</a>
+                <a class="Links" href="tel:+919813473415" rel="noopener">Contact</a>
 
             </li>
         </ul>
@@ -61,7 +63,7 @@
         <div class="container-center">
             <h1>projects</h1>
             <p>I Like to showcase my work thus,you can see my projects hosted online</p>
-            <a class="Primary-link" href="https://github.com/aaryanmehta2307?tab=repositories">Projects</a>
+            <a class="Primary-link" href="https://github.com/aaryanmehta2307?tab=repositories" rel="noopener">Projects</a>
         </div>
 
     </section>
@@ -71,25 +73,25 @@
       
         <div class="logo-container">
           <div class="logo-row">
-            <a href="https://instagram.com/aaryan8153?igshid=MzNlNGNkZWQ4Mg==" class="logo-link">
+            <a href="https://instagram.com/aaryan8153?igshid=MzNlNGNkZWQ4Mg==" class="logo-link" rel="noopener">
               <img id="Instagram" src="images/transparent_ints.png" alt="Instagram">
             </a>
-            <a href="https://m.facebook.com/aaryan.mehta.5099" class="logo-link">
-              <img id="Facebook" src="images/facebook.png" alt="Facebook">
+            <a href="https://m.facebook.com/aaryan.mehta.5099" class="logo-link"rel="noopener">
+                       <img id="Facebook" src="images/facebook.png" alt="Facebook">
             </a>
-            <a href="https://twitter.com/AaryanM2311" class="logo-link">
+            <a href="https://twitter.com/AaryanM2311" class="logo-link" rel="noopener">
               <img id="Twitter" src="images/twitter.png" alt="Twitter">
             </a>
           </div>
           <div class="logo-row">
-            <a href="https://www.linkedin.com/in/aryan-mehta-958692257" class="logo-link">
+            <a href="https://www.linkedin.com/in/aryan-mehta-958692257" class="logo-link" rel="noopener">
               <img id="LinkedIn" src="images/linkedin.png" alt="LinkedIn">
             </a>
-            <a href="https://wa.me/919813473415" class="logo-link">
+            <a href="https://wa.me/919813473415" class="logo-link" rel="noopener">
               <img id="GitHub" src="images/transparentwhatsapp.png" alt="whatsapp">
             </a>
-            <a href="https://mail.google.com/mail/u/0/?view=cm&fs=1&to=aaryanmehta619@gmail.com" class="logo-link">
-              <img id="YouTube" src="images/gmail.png" alt="Gmail">
+            <a href="https://mail.google.com/mail/u/0/?view=cm&fs=1&to=aaryanmehta619@gmail.com" rel="noopener" class="logo-link">
+              <img id="YouTube" src="images/gmail.png" alt="Gmail" >
             </a>
           </div>
         </div>
